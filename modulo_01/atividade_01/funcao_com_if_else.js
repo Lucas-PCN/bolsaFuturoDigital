@@ -9,3 +9,10 @@ function podeDirigir(idade, temHabilitacao) {
     console.log("Você não pode dirigir.");
   }
 }
+
+//Exemplos de uso
+podeDirigir(20, true);
+
+podeDirigir(20, false);
+
+podeDirigir(16, false);
