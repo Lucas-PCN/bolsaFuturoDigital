@@ -1,8 +1,7 @@
-let nome; //O nome do usuário
-let saudacao; //Como eu quero saudar o usuário
-let teste = "teste";
+//Exercício de exemplo: mostrar apenas números pares de um a dez
 
-nome = "Lucas";
-saudacao = "Olá ";
-
-alert(saudacao+nome);
+for (let i = 1; i <=10; i++) {
+  if (i % 2 === 0) {
+    console.log(i + " é par");
+  }
+};
