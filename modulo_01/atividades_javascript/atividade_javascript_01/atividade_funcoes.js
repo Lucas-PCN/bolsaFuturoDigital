@@ -30,3 +30,24 @@ function calculaFatorial(numero) {
 console.log(calculaFatorial(-3));
 console.log(calculaFatorial(0));
 console.log(calculaFatorial(5));
+
+// Função que encontre o maior número em um array de números.
+function encontraMaiorNumero(arrayDeNumeros) {
+  if (arrayDeNumeros.length === 0) {
+    return "O array está vazio.";
+  }
+
+  let maiorNumero = arrayDeNumeros[0];
+
+  arrayDeNumeros.forEach(element => {
+    if (element > maiorNumero) {
+        maiorNumero = element;
+      }
+  });
+
+  return `O maior número do array é ${maiorNumero}.`;
+}
+
+console.log(encontraMaiorNumero([900, 80, 10, 6]));
+console.log(encontraMaiorNumero([30, 70, 12, 91, 1]));
+console.log(encontraMaiorNumero([]));
