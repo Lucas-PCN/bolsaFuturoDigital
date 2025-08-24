@@ -16,7 +16,7 @@ function calculaFatorial(numero) {
   if (numero < 0) {
     return "Fatorial não é definido para números negativos, escolha outro número.";
   } else if (numero === 0) {
-    return `o fatorial de ${numero} é 1.`;
+    return `O fatorial de ${numero} é 1.`;
   } else {
     let fatorial = 1;
     
@@ -24,7 +24,7 @@ function calculaFatorial(numero) {
       fatorial *= i;
     }
     
-    return `o fatorial de ${numero} é ${fatorial}.`;
+    return `O fatorial de ${numero} é ${fatorial}.`;
   }
 };
 
