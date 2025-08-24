@@ -7,6 +7,7 @@ function verificaParImpar(numero) {
   }
 };
 
+// Exemplos de uso da função
 console.log(verificaParImpar(10));
 console.log(verificaParImpar(3));
 
@@ -27,6 +28,7 @@ function calculaFatorial(numero) {
   }
 };
 
+// Exemplos de uso da função
 console.log(calculaFatorial(-3));
 console.log(calculaFatorial(0));
 console.log(calculaFatorial(5));
@@ -46,8 +48,9 @@ function encontraMaiorNumero(arrayDeNumeros) {
   });
 
   return `O maior número do array é ${maiorNumero}.`;
-}
+};
 
+// Exemplos de uso da função
 console.log(encontraMaiorNumero([900, 80, 10, 6]));
 console.log(encontraMaiorNumero([30, 70, 12, 91, 1]));
 console.log(encontraMaiorNumero([]));
