@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NYU</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">
+        <img src="images/logo.jpg" alt="NYU Logo" class="logo-img">
+      </div>
+      <ul class="nav-menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="about.html">Sobre</a></li>
+        <li><a href="contact.html" class="active">Contato</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+  </header>
+
+  <section class="contato">
+    <div class="dados-de-contato">
+        <h2>Informações para contato</h2>
+        <p>
+            E-mail: nyu@hotmail.com <br>
+            Telefone: (212) 998-1212 <br>
+            Endereço: Rua 4th, número 50, New York
+        </p>
+    </div>
+    <div class="formulario-de-contato">
+      <h2>Entre em Contato</h2>
+      <form class="contato-form" onsubmit="enviarFormulario(event)">
+        <input type="text" placeholder="Seu nome" required>
+        <input type="email" placeholder="Seu email" required>
+        <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+        <button type="submit">Enviar Mensagem</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 - New York University</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
